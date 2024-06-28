@@ -1,26 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="./output.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Investment Portal </title>
 </head>
-<body>
-    <div class="bg-slate-500">
-        <h1>Port</h1>
-            <h1 class="bg-slate-100">
-                ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                            
-            </h1>
-                <nav class="flex justify-end space-x-5 bg-slate-300 mt-5">
-                    <a href="">Home page </a>
-                    <a href="">Product page</a>
-                    <a href="">Services page</a>
-                    <a href="">Contact Us</a>
-                    <a href="">About Us</a>
-                </nav>
-    </div>  
-   
-    
+
+<body class="bg-slate-500">
+
+    <nav class="flex justify-end space-x-5 bg-slate-300 p-4">
+        <h1 class="mr-auto">Investment Portal</h1>
+        <ul class="flex">
+            <li class="mr-5">
+                <a class="text-black font-bold hover:text-red-600" href="#">Home</a>
+            </li>
+            <li class="mr-5">
+                <a class="text-black font-bold hover:text-red-600" href="#">Company</a>
+            </li>
+            <li class="mr-5">
+                <a class="text-black font-bold hover:text-red-600" href="#">Research</a>
+            </li>
+            <li class="mr-5">
+                <a class="text-black font-bold hover:text-red-600" href="#">Valuation</a>
+            </li>
+            <li class="mr-5">
+                <a class="text-black font-bold hover:text-red-600" href="#">Financial</a>
+            </li>
+            <li class="mr-5">
+                <a class="text-black font-bold hover:text-red-600" href="#">Market</a>
+            </li>
+            <li class="mr-5">
+                <a class="text-black font-bold hover:text-red-600" href="#">MarketPedia</a>
+            </li>
+            <li class="mr-5">
+                <a href="#" class="border text-black font-bold border-black py-1 px-2 rounded text-sm text-right">Sign
+                    Up</a>
+            </li>
+            <li>
+                <a href="#" class="border text-black font-bold border-black py-1 px-2 rounded text-sm text-right">Log
+                    In</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        <!-- <img src="/src/stock picture.jpeg"  class="object-fill  w-screen h-screen"> -->
+        <div class="mt-10 mx-auto w-full max-w-xs">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, doloribus dicta, temporibus deleniti
+                pariatur eum quae, at nulla neque earum excepturi nostrum autem perferendis similique voluptas magni
+                aspernatur obcaecati necessitatibus.</p>
+            <form class="shadow-md rounded px-8 pt-6 pb-8 mb-4 w-96">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="search">
+                        Search
+                    </label>
+                    <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="search" type="text" placeholder="Search...">
+                </div>
+                <div class="flex items-center justify-between">
+                    <button
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        type="button">
+                        Search
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="flex justify-around p-2 ml-5">
+            <div>
+                <img src="/src/stock picture.jpeg" class="w-full h-full">
+                <h3>Image of Stock Market</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam animi consectetur maiores,
+                    repudiandae ut corrupti vel expedita cum. Illum doloremque eum nemo. Recusandae distinctio vero nemo
+                    doloremque in, perspiciatis quas.</p>
+            </div>
+
+            <div>
+                <img src="/src/dog.jpg" class="ml-5 w-full h-full">
+                <h3 class="p-5">Image of Dog</h3>
+                <p class="ml-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At libero, similique, ipsa
+                    distinctio eius maiores suscipit ipsam dolor nemo ab reprehenderit sit! Atque ipsam explicabo nulla!
+                    Vitae nisi nostrum aspernatur.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="shadow m-4 dark:bg-black rounded-lg mt-44">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">Ansu Invest™</a>. All Rights Reserved.</span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-white dark:text-white sm:mt-0">
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
 </body>
+
 </html>
